@@ -23,7 +23,7 @@ pipeline{
     }
     post{
         success{
-            cd /home/ubuntu/java
+            cd /home/ubuntu/ml
             sudo git pull
         }
     }
