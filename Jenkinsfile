@@ -20,5 +20,13 @@ pipeline{
 
             }
         }
+
+        stage("pull"){
+
+            steps{
+                cd /home/ubuntu/ml
+                sudo git pull
+            }
+        }
     }
 }
