@@ -17,6 +17,7 @@ public class count {
         }
         System.out.println(count);
         System.out.println(count);
+        System.out.println(count);
     
        
     }
