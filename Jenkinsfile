@@ -21,4 +21,10 @@ pipeline{
             }
         }
     }
+    post{
+        success{
+            cd /home/ubuntu/java
+            sudo git pull
+        }
+    }
 }
