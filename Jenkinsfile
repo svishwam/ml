@@ -21,10 +21,4 @@ pipeline{
             }
         }
     }
-    post{
-        success{
-            cd /home/ubuntu/ml
-            sudo git pull
-        }
-    }
 }
